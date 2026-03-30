@@ -93,7 +93,7 @@ It should work with any model that supports audio input in the Liquid AI fork?
 - Check the server URL in the config matches your setup
 
 ### No speech detected
-- Check audio levels - the plugin applies 4x gain
+- Check audio levels - the plugin applies 2x gain
 - Look at the log file for detailed error messages
 
 ## License

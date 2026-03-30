@@ -88,7 +88,7 @@ export const VoiceInputPlugin = async ({ project, client, $, directory, worktree
         "-ar", String(config.sampleRate),
         "-ac", String(config.channels),
         "-acodec", "pcm_s16le",
-        "-filter:a", "volume=4.0",
+        "-filter:a", "volume=2.0",
         "-f", "s16le",
         "-"
       ]);
@@ -184,7 +184,7 @@ export const VoiceInputPlugin = async ({ project, client, $, directory, worktree
     try {
       log("info", "Voice Input Plugin: Concatenating PCM chunks");
       const pcmBuffer = Buffer.concat(audioChunks);
-      log("info", `Voice Input Plugin: Total PCM size: ${pcmBuffer.length} bytes (ffmpeg already applied 4x gain)`);
+      log("info", `Voice Input Plugin: Total PCM size: ${pcmBuffer.length} bytes (ffmpeg already applied 2x gain)`);
 
       // Build WAV header
       const wavHeader = buildWavHeader({
