@@ -36,8 +36,8 @@ Install opencode from [https://opencode.ai](https://opencode.ai)
 /tools rt
 ```
 
-- First call: Starts recording (say what you want to transcribe)
-- Second call: Stops recording, processes audio, appends transcription to prompt
+- Starts recording (say what you want to transcribe)
+
 
 ### Start Prompt Mode
 
@@ -45,8 +45,7 @@ Install opencode from [https://opencode.ai](https://opencode.ai)
 /tools rp
 ```
 
-- First call: Starts recording (speak to the AI)
-- Second call: Stops recording, sends audio to AI, AI responds to you
+- Starts recording (speak to the AI)
 
 ###  Stop Commands
 
