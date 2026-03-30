@@ -1,0 +1,26 @@
+{
+  "name": "@5ch4um1/opencode-voice-input",
+  "version": "1.0.0",
+  "description": "Voice input plugin for opencode - records audio, transcribes with Liquid AI, and inserts into prompt",
+  "main": "voice-input.js",
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.3.3"
+  },
+  "keywords": [
+    "opencode",
+    "voice",
+    "audio",
+    "transcription",
+    "llama.cpp",
+    "liquid-ai"
+  ],
+  "license": "MIT",
+  "author": "5ch4um1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/5ch4um1/opencode-liquidaudio"
+  }
+}
