@@ -67,13 +67,6 @@ const config = {
 };
 ```
 
-## Supported Models
-
-The plugin has been tested with:
-- LFM2.5-Audio-1.5B-Q4_0.gguf
-
-It should work with any model that supports audio input in the Liquid AI fork?
-
 ## How It Works
 
 1. **Recording:** Uses ffmpeg to capture audio from ALSA (`default` device) in raw PCM format

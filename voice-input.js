@@ -206,7 +206,6 @@ export const VoiceInputPlugin = async ({ project, client, $, directory, worktree
         : "Perform ASR.";
 
       const requestBody = {
-        model: "llama4-scout",
         messages: [
           { role: "system", content: systemPrompt },
           {
